@@ -1,11 +1,11 @@
-package com.redhat.fuse.boosters;
+package com.example.camel.kafka;
 
 import javax.enterprise.context.ApplicationScoped;
 
 import org.apache.camel.builder.RouteBuilder;
 
 @ApplicationScoped
-public class TickerRoute extends RouteBuilder {
+public class Route extends RouteBuilder {
 
 
     @Override

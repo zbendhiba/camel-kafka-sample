@@ -13,11 +13,11 @@ kind: Pod
 metadata:
   name: camel
   labels:
-    app: ticker2log
+    app: camelKafka
     pod: camel
 spec:
   containers:
     - name: camel
-      image: zbendhiba/fuse-booster-camel-quarkus-ticker-amq-kafka
+      image: zbendhiba/camel-kafka-sample
       imagePullPolicy: Always
 

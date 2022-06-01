@@ -1,3 +1,4 @@
+
 schemaVersion: 2.1.0
 
 # API Reference
@@ -49,10 +50,10 @@ metadata:
   language: java
   
 starterProjects:
-  - name: ticker-amq-kafka
+  - name: camel-kafka-samp
     git:
       remotes:
-        origin: "https://github.com/zbendhiba/fuse-booster-camel-quarkus-ticker-amq-kafka.git"
+        origin: "https://github.com/zbendhiba/camel-kafka-sample.git"
       checkoutFrom:
         revision: next
         
@@ -69,9 +70,6 @@ components:
           path: /home/user/.m2
           
   # Volumes
-  - name: artemis-instance
-    volume:
-      ephemeral: true
   - name: m2
     volume: {}
     

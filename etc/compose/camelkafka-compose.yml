@@ -4,7 +4,7 @@ services:
 
   camel:
     container_name: camel
-    image: zbendhiba/fuse-booster-camel-quarkus-ticker-amq-kafka
+    image: zbendhiba/camel-kafka-sample
 
       
 volumes:

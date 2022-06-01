@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.redhat.fuse.boosters</groupId>
-  <artifactId>fuse-booster-camel-quarkus-ticker-amq-kafka</artifactId>
+  <groupId>com.example.camel.kafka</groupId>
+  <artifactId>camel-kafka-sample</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   
-  <name>Fuse :: Camel :: Quarkus :: Ticker > Artemis > Kafka</name>
+  <name> Camel :: Quarkus :: Kafka</name>
   
   <properties>
   
