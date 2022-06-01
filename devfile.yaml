@@ -62,7 +62,7 @@ components:
 # Application Pod
   - name: camel
     container:
-      image: quay.io/eclipse/che-java11-maven:7.36.2
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
       memoryLimit: 512Mi
       mountSources: true
       volumeMounts:
