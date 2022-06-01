@@ -1,0 +1,23 @@
+
+# Create Pods and Services
+#
+# oc apply -f etc/k8s/ticker2log-deployment.yaml 
+
+
+
+# Application Pod #####################################################################################################
+#
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: camel
+  labels:
+    app: ticker2log
+    pod: camel
+spec:
+  containers:
+    - name: camel
+      image: zbendhiba/fuse-booster-camel-quarkus-ticker-amq-kafka
+      imagePullPolicy: Always
+

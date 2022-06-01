@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+
+  camel:
+    container_name: camel
+    image: zbendhiba/fuse-booster-camel-quarkus-ticker-amq-kafka
+
+      
+volumes:
+  artemis-instance:
+        
+    
