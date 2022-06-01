@@ -1,5 +1,7 @@
 # camel-kafka-sample
 
+[code with CRW](https://workspaces.openshift.com/#https://github.com/zbendhiba/camel-kafka-sample)
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: [https://quarkus.io](https://quarkus.io).
