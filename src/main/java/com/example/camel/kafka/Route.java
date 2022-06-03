@@ -12,7 +12,11 @@ public class Route extends RouteBuilder {
     public void configure() throws Exception {
         from("timer:ticker?period=2500")
                 .setBody().simple("Message #${exchangeProperty.CamelTimerCounter}")
+                .to("kafka:mytopic")
                 .log("Message sent correctly sent to the topic! : \"${body}\" ");
+
+        from("kafka:mytopic")
+                .log("Incoming message ${body}");
 
     }
 }
